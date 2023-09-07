@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 41, 41);
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+#ceilling {
+  margin-top: 20vh;
+}
+
+#mainwindow-container {
+  transition: all 1s;
+}
+
+.icon {
+  height: 3vh;
+  background-color: rgb(232, 232, 232);
+  width: max(170px, 10vw);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 0 0;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  z-index: 2;
+  box-shadow: 0 20px 17px rgba(0, 0, 0, 0.33) inset;
+  justify-content: center;
+}
+
+.icon-graphics {
+  font-size: max(20vh, 10vw);
+  position: absolute;
+  bottom: 0;
+  line-height: 0.7;
+}
+
+.window {
+  background-color: rgb(245, 245, 245);
+  overflow: auto;
+  padding: 40px 40px;
+  box-sizing: border-box;
+  border-radius: 50px 50px 0 0;
+  height: 76vh;
+  box-shadow: 0 -47px 100px rgb(170, 170, 170);
+}
